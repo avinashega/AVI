@@ -352,7 +352,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
     _name = "AVI";
     _symbol = "AVI";
     _decimals = 9;
-    _totalSupply = 1000000000;
+    _totalSupply = 500000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
